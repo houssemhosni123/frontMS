@@ -11,7 +11,6 @@ import { RouterModule } from '@angular/router';
 import { ModifProgrammeComponent } from './modif-programme/modif-programme.component';
 import { ReclamationAddComponent } from './reclamation-add/reclamation-add.component';
 import { ListReclamationComponent } from './list-reclamation/list-reclamation.component';
-import { ModifierReclamationComponent } from './modifier-reclamation/modifier-reclamation.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +20,7 @@ import { ModifierReclamationComponent } from './modifier-reclamation/modifier-re
     ModifProgrammeComponent,
     ReclamationAddComponent,
     ListReclamationComponent,
-    ModifierReclamationComponent
+    
   ],
   imports: [
     BrowserModule,              // Modules go here
